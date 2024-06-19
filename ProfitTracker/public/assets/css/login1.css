@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Updated to a slightly darker gray */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    background-color: #FFF1F1;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the container with some top margin */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.header img {
+width: 105px; /* Adjusted width */
+height: auto; /* Maintain aspect ratio */
+margin-right: 20px; /* Adjusted margin */
+}
+
+h2.shoe-bros {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 45px; /* Adjusted font size */
+    margin: 0;
+    color: #6B0101;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+h2.welcome {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px; /* Adjusted font size */
+    color: #6B0101;
+    margin-top: 15px; /* Reduced margin-top */
+    margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+p {
+    color: #6B0101;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #6B0101;
+    font-weight: bold; /* Make labels bold */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #920808;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #6B0101; /* Darker color on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+width: 100%;
+padding-right: 30px; /* Adjusted padding */
+box-sizing: border-box; /* Ensure padding is within the input's bounds */
+}
+
+.password-container .toggle-password {
+position: absolute;
+top: 40%; /* Center vertically */
+right: 10px;
+transform: translateY(-50%);
+cursor: pointer;
+font-size: 15px; /* Adjust icon size as necessary */
+}
+
+.password-container .toggle-password:hover {
+    color: #333; /* Icon color on hover */
+}
+
+.forgot-password {
+    font-size: 13px; /* Adjust font size as necessary */
+    margin-top: 10px; /* Added margin */
+}
