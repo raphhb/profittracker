@@ -1,0 +1,12 @@
+.modal-dialog .form-control{
+    box-shadow: 4px 4px 8px rgb(189 200 213), -4px -4px 8px rgb(255 255 255) !important;
+    background-color: var(--bs-body-bg);
+}
+.modal-content{
+    font-family: 'poppins', sans-serif !important;
+    font-size: var(--bs-body-font-size) !important;
+    font-weight: var(--bs-body-font-weight) !important;
+    line-height: var(--bs-body-line-height) !important;
+    color: var(--bs-body-color) !important;
+    background-color: var(--bs-body-bg) !important;
+}
